@@ -1,0 +1,10 @@
+Debug/
+Release/
+
+autodependencies.d
+simple-link/
+
+*.tmp
+
+# IDE
+objectdb
