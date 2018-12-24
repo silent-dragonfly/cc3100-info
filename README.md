@@ -9,7 +9,7 @@ This program prints information of cc3100
 
 * `Device` - Which controls the behavior of the hardware 
 * `Wlan` - Controls the use of Wi-Fi on the cc3100, including `Connection Features` and `Advanced WLAN features`
-* `Sockets` - This driver controls the standard options and capabilities for client and server programing
+* `Sockets` - This controls the standard options and capabilities for client and server programing
 	
  The previous modules will be used to start gattering information from the cc3100 for more detailed module information and other not listed here can review the [Simple Link](https://passive-scan.std12.os3.su/simplelink_api/html/index.html) web site. 
 
@@ -24,9 +24,9 @@ Modifying the sample code as requiered, taking as base the previously described 
 
 The specific modules used were:	
 	
-* sl_DevGet - Function to Get the basic device version information
-* sl_WlanGet - This function was used to get Wi-Fi settings
-* sl_GetSocketOpt - This function was used to get the physic parameters of socket opened in transmiter mode
+* `sl_DevGet` - Function to Get the basic device version information
+* `sl_WlanGet` - This function was used to get Wi-Fi settings
+* `sl_GetSocketOpt` - This function was used to get the physic parameters of socket opened in transmiter mode
 	
 Output exapmle:
 
