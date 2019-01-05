@@ -1,11 +1,17 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
+#include <stdbool.h>
+
 
 #include "simplelink.h"
 #include "sl_common.h"
 
 #include "helpers.h"
 #include "event_handlers.h"
+
+
+int cc3100_read();
+int cc3100_write();
 
 // global variables
 #ifndef __MAIN_C__

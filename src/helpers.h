@@ -37,13 +37,6 @@ typedef enum
 #define DEBUG(Fmt, ...)
 #endif
 
-#define RUN(call)            \
-    do                       \
-    {                        \
-        _u8 retVal = call;   \
-        assert(retVal >= 0); \
-    } while (0)
-
 void stopWDT();
 void initClk();
 void _SlNonOsMainLoopTask(void);
