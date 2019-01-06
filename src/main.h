@@ -11,7 +11,8 @@
 
 
 int cc3100_read();
-int cc3100_write();
+int cc3100_initForActiveScan();
+int cc3100_initForPassiveScan();
 
 // global variables
 #ifndef __MAIN_C__
